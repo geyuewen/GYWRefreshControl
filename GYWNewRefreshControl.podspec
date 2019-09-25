@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYWRefreshControl'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '自定义刷新控件'
 
   s.description      = <<-DESC
@@ -20,7 +20,7 @@ TODO: 自定义刷新控件 1231231
   s.source_files = 'GYWRefreshControl/Classes/**/*'
   
   s.resource_bundles = {
-    'GYWNewRefreshControl' => ['GYWRefreshControl/Assets/*.png']
+    'GYWRefreshControl' => ['GYWRefreshControl/Assets/*.png']
   }
 
   s.dependency 'MJRefresh'
